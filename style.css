@@ -79,3 +79,35 @@ select{
     background-position-x: calc(100% - 20px);
     background-position-y: 20px;
 }
+@media screen and (max-width:567px){
+    .hero{
+        width: 100%;
+        max-width: 560px;
+    }
+    textarea{
+        width: 400px;
+        height: 200px;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    .hero h1{
+        font-size: 40px;
+        font-weight: 500;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+    .row{
+        width: 400px;
+    }
+    button{
+        font-size: 14px;
+        padding: 10px 10px;
+        border-radius: 35px;
+    }
+    button i{
+        width: 14px;
+        margin-right: 5px;
+        font-size: 20px;
+    }
+}
